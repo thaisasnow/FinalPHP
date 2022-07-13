@@ -1,0 +1,405 @@
+section.container div#anuncioproduto{
+
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: #fff;
+  background-color: #232323;
+  padding: 5px 0;
+  margin-bottom: 20px;
+
+}
+section.container div#conteudo ul#album-fotos{
+ 
+  width: 700px;
+  background-color: red;
+  overflow: hidden;
+  list-style: none;
+  margin: auto;
+  padding: 50px;
+
+
+}
+
+section.container div#conteudo ul#album-fotos li{
+
+  float:left;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+  -webkit-transition: 0.5s ease-in;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto01{
+
+  background:url(../images/1.jpg);
+  background-position:50% 50%;
+  background-size :400px 400px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto02{
+
+  background:url(../images/2.png);
+  background-position:50% 50%;
+  background-size :400px 400px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto03{
+
+  background:url(../images/3.jpg);
+  background-position:50% 50%;
+  background-size :400px 400px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto04{
+
+  background:url(../images/4.jpg);
+  background-position:50% 50%;
+  background-size :400px 400px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto05{
+
+  background:url(../images/5.jpg);
+  background-position:50% 50%;
+  background-size :400px 400px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto06{
+
+  background:url(../images/6.png);
+  background-position:50% 50%;
+  background-size :400px 400px;
+
+}
+
+section.container div#conteudo ul#album-fotos li span{
+
+color:#ffffff;
+text-shadow:1px 1px 1px #000000;
+background-color: rgba(0,0,0,0.3);
+padding:5px ;
+line-height:370px;
+opacity:0;
+
+}
+
+section.container div#conteudo ul#album-fotos li:hover span{
+opacity:1;
+}
+
+section.container div#conteudo ul#album-fotos li#foto01:hover{
+
+background-size :200px 200px;
+
+}
+
+
+section.container div#conteudo ul#album-fotos li#foto02:hover{
+
+  background-size :200px 200px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto03:hover{
+
+  background-size :200px 200px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto04:hover{
+
+  background-size :200px 200px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto05:hover{
+
+  background-size :200px 200px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto06:hover{
+
+  background-size :200px 200px;
+
+}
+
+section.container div#conteudo ul#album-fotos li:hover{
+
+  -webkit-transform: scale(1.2);
+  -webkit-transition: 0.5s ease-in;
+  
+}
+
+
+
+@media screen and (max-width:992px) and (min-width:668px){
+
+  body{
+    
+      background-color:  orange;
+  }
+
+  section.container div#conteudo ul#album-fotos{
+ 
+      width: 500px;
+      background-color: purple;
+  
+  }
+
+  section.container div#conteudo ul#album-fotos li{
+
+      width: 220px;
+      height: 220px;
+  
+  }
+  
+  section.container div#conteudo ul#album-fotos li span{
+
+      line-height:420px;
+  
+    }
+
+    section.container div#conteudo ul#album-fotos li#foto01:hover{
+
+      background-size :220px 220px;
+    
+    }
+
+    section.container div#conteudo ul#album-fotos li#foto02:hover{
+
+      background-size :220px 220px;
+    
+    }
+
+    section.container div#conteudo ul#album-fotos li#foto03:hover{
+
+      background-size :220px 220px;
+    
+    }
+
+    section.container div#conteudo ul#album-fotos li#foto04:hover{
+
+      background-size :220px 220px;
+    
+    }
+
+    section.container div#conteudo ul#album-fotos li#foto05:hover{
+
+      background-size :220px 220px;
+    
+    }
+
+    section.container div#conteudo ul#album-fotos li#foto06:hover{
+
+      background-size :220px 220px;
+    
+    }
+
+}
+
+
+@media screen and (max-width:667px){
+  body{
+      background-color: pink;
+  }
+  
+  section.container div#conteudo ul#album-fotos{
+ 
+      width: 315px;
+      background-color: gray;
+  
+  }
+
+  section.container div#conteudo ul#album-fotos li{
+
+      
+      width: 300px;
+      height: 300px;
+      margin-left: 0px;
+      
+}
+
+section.container div#conteudo ul#album-fotos li span{
+
+  line-height:570px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto01:hover{
+
+  background-size :300px 300px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto02:hover{
+
+  background-size :300px 300px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto03:hover{
+
+  background-size :300px 300px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto04:hover{
+
+  background-size :300px 300px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto05:hover{
+
+  background-size :300px 300px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto06:hover{
+
+  background-size :300px 300px;
+
+}
+
+@media screen and (max-width:457px){
+  body{
+      background-color: purple;
+  }
+
+  section.container div#conteudo ul#album-fotos{
+ 
+      width: 260px;
+      background-color: green;
+  
+  }
+
+
+  section.container div#conteudo ul#album-fotos li{
+
+      
+      width: 250px;
+      height: 250px;
+      margin-left: 0px;
+
+   
+}
+
+section.container div#conteudo ul#album-fotos li span{
+
+  line-height:470px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto01:hover{
+
+  background-size :250px 250px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto02:hover{
+
+  background-size :250px 250px;
+
+}
+section.container div#conteudo ul#album-fotos li#foto03:hover{
+
+  background-size :250px 250px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto04:hover{
+
+  background-size :250px 250px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto05:hover{
+
+  background-size :250px 250px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto06:hover{
+
+  background-size :250px 250px;
+
+}
+}
+
+
+@media screen and (max-width:357px){
+  body{
+      background-color:green;
+  }
+
+  section.container div#conteudo ul#album-fotos{
+ 
+      width: 155px;
+      background-color: yellow;
+  
+  }
+
+  section.container div#conteudo ul#album-fotos li{
+
+      
+      width: 175px;
+      height: 175px;
+      margin-left: -15px;
+}
+
+section.container div#conteudo ul#album-fotos li span{
+
+  line-height:320px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto01:hover{
+
+  background-size :175px 175px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto02:hover{
+
+  background-size :175px 175px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto03:hover{
+
+  background-size :175px 175px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto04:hover{
+
+  background-size :175px 175px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto05:hover{
+
+  background-size :175px 175px;
+
+}
+
+section.container div#conteudo ul#album-fotos li#foto06:hover{
+
+  background-size :175px 175px;
+
+}
+}
+
+
+}
